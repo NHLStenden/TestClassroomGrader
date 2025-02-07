@@ -28,6 +28,7 @@ jobs:
           command: dotnet test
           timeout: 10
           max-score: 20
+          
       - name: Autograding Reporter
         uses: ./
         env:
