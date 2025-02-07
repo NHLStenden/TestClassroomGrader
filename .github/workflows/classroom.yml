@@ -30,7 +30,7 @@ jobs:
           max-score: 20
           
       - name: Autograding Reporter
-        uses: ./
+        uses: education/autograding-grading-reporter@v1
         env:
           A-DOTNET-TEST_RESULTS: "${{steps.a-dotnet-test.outputs.result}}"
         with:
